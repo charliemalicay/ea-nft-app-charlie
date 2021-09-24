@@ -6,8 +6,8 @@
   "scripts": {
     "dev": "webpack serve",
     "start": "node server.js",
-    "build": "webpack --mode production",
-    "build:development": "webpack"
+    "build:production": "webpack --mode production",
+    "build": "webpack"
   },
   "author": "Charliemagne C. Malicay",
   "license": "ISC",
