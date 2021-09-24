@@ -1,0 +1,51 @@
+@button_color_1: #376704;
+
+
+div.section-4-container {
+  height: 900px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 900px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+
+  div.inner-info {
+    height: 300px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    h1, p {
+      margin: 0;
+    }
+
+    p.bold-text {
+      font-weight: bold;
+      font-size: 20px;
+    }
+
+    h1 {
+      font-size: 40px;
+    }
+
+    p.description-text {
+      font-size: 18px;
+      text-align: center;
+    }
+
+    button {
+      margin-top: 20px;
+      background-color: @button_color_1;
+      text-transform: none;
+      height: 50px;
+      width: 150px;
+      font-size: 13px;
+      font-weight: bold;
+    }
+  }
+}

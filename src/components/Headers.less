@@ -1,0 +1,77 @@
+@main_background_color: #FFFFFF;
+@button_color: #376704;
+@nav_text_color: #171916;
+
+
+div.headers-container {
+  background-color: @main_background_color;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  padding-left: 40px;
+  padding-right: 40px;
+
+  height: 100px;
+  width: 100%;
+
+  img {
+    height: inherit;
+    width: 200px;
+
+    &:hover {
+      cursor: pointer;
+      opacity: 0.8;
+    }
+  }
+
+  div.nav-group {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    height: inherit;
+    width: 50%;
+    max-width: 1200px;
+
+    div.nav-item {
+      height: inherit;
+      width: 10%;
+      flex-grow: 1;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+
+      &.extra-grow {
+        flex-grow: 2;
+      }
+
+      &:hover {
+        opacity: 0.5;
+        cursor: pointer;
+      }
+
+      p {
+        font-size: 15px;
+        font-weight: bold;
+        color: @nav_text_color;
+      }
+    }
+  }
+
+  button {
+    height: 40px;
+    width: 100px;
+    font-size: 13px;
+    font-weight: bold;
+    background-color: @button_color;
+    text-transform: none;
+    margin-left: 10px;
+
+    &:hover {
+      background-color: @button_color;
+      opacity: 0.9;
+    }
+  }
+}

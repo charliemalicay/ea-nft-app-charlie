@@ -1,0 +1,41 @@
+@button_color_1: #FF8603;
+
+
+div.section-1-container {
+  height: 900px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 900px;
+  position: relative;
+
+  div.group-info {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 15%;
+    left: 5%;
+
+    h1 {
+      margin: 0;
+      font-weight: 1000;
+    }
+
+    p {
+      margin-top: 10px;
+      margin-bottom: 10px;
+      width: 40%;
+      font-size: 13px;
+      font-weight: 600;
+    }
+
+    button {
+      background-color: @button_color_1;
+      text-transform: none;
+      height: 5.5%;
+      width: 200px;
+      font-size: 13px;
+      font-weight: bold;
+    }
+  }
+}

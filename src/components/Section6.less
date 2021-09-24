@@ -1,0 +1,66 @@
+div.section-6-container {
+  height: 900px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 900px;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+
+  h1, p {
+    margin: 0;
+  }
+
+  p {
+    &.bold-text {
+      font-weight: bold;
+      font-size: 20px;
+    }
+
+    &.description-text {
+      width: 40%;
+      margin-top: 10px;
+      text-align: center;
+    }
+  }
+
+  span {
+    position: absolute;
+    left: 16.5%;
+    width: 67%;
+
+    p {
+      font-size: 13px;
+      margin-bottom: 8px;
+
+      &.bold-text-inner {
+        font-weight: bold;
+      }
+    }
+  }
+
+  span {
+    &.row-1 {
+      top: 215px;
+    }
+
+    &.row-2 {
+      top: 345px;
+    }
+
+    &.row-3 {
+      top: 475px;
+    }
+
+    &.row-4 {
+      top: 605px;
+    }
+
+    &.row-5 {
+      top: 735px;
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "section_1": {
+    "background_image": "https://drive.google.com/uc?export=view&id=1zAw7xJbOsgihMyOeUQHb8RPM_MmP8m6y",
+    "content": {
+      "currentValue": 9999,
+      "totalValue": 9999
+    }
+  },
+  "section_2": {
+    "background_image": "https://drive.google.com/uc?export=view&id=1ZTBxg22lzJhYXbslbo95sZXOhFEj4KR7"
+  },
+  "section_3": {
+    "background_image": "https://drive.google.com/uc?export=view&id=10VBUubAg1Ox3QCwitA6gWsCU6-5tnxXo",
+    "content_categories": {
+      "category_1": {
+        "image_url": "https://drive.google.com/uc?export=view&id=1QT4C20WiMrdvHd-oTdvz4iQ1ZH3y_dze",
+        "description": "Specific charities to saving endangered animals around the world."
+      },
+      "category_2": {
+        "image_url": "https://drive.google.com/uc?export=view&id=1q8TzcZbgrSyhW8l2wgNCwuibvcd5G2mI",
+        "description": "We provide a way for the community decide what animals we help."
+      },
+      "category_3": {
+        "image_url": "https://drive.google.com/uc?export=view&id=1H0e-EyIm10E3Dj0asBh6b60uxDwGrMel",
+        "description": "Each NFT a user purchases they will own and help raise money to help save endangered animals..."
+      }
+    }
+  },
+  "section_4": {
+    "background_image": "https://drive.google.com/uc?export=view&id=1ML2oyFI6_aAbDYn7ntVn9hV0i48-DxIF"
+  },
+  "section_5": {
+    "background_image": "https://drive.google.com/uc?export=view&id=1iFEJw2eKYCrKsfWN4r6bn_btSwvUa4c7",
+    "rarity": {
+      "title": "Rarity",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis quam facilisis, maximus nulla eget, tincidunt lectus. Sed laoreet consectetur purus eu tincidunt. Vivamus ut enim id dui semper feugiat non eu ligula. Donec leo leo, vulputate sit amet efficitur in, sollicitudin quis nisi. Cras luctus erat ex, et feugiat sem ullamcorper non."
+    },
+    "types": {
+      "type1": [9999, "Total Endangered"],
+      "type2": ["Common", "Endangered"],
+      "type3": ["Less Common", "Cyborgos"],
+      "type4": ["Super Rare", "Computos"]
+    },
+    "variations": {
+      "var1": [38, "Head Tops"],
+      "var2": [32, "Eyes"],
+      "var3": [18, "Helmets"],
+      "var4": [16, "Mouth"],
+      "var5": [18, "Ears"],
+      "var6": [12, "Arms"],
+      "var7": [10, "Chassis Colors"],
+      "var8": [9, "Backpacks"],
+      "var9": [6, "Computo Heads"],
+      "var10": [6, "Chest Screens"]
+    }
+  },
+  "section_6": {
+    "background_image": "https://drive.google.com/uc?export=view&id=1NfH9q7-jZxp-9ytoETNT1O1FOCh6bcXj",
+    "highlight_section": {
+      "hs1": {
+        "title": "Endangered Animals NFT new developments",
+        "description": "Mauris facilisis, sem sit amet semper fermentum, nibh massa tempus ligula, vitae aliquet tellus risus vitae leo. Aliquam viverra efficitur libero non mattis."
+      },
+      "hs2": {
+        "title": "Endangered Animals NFT Monthly Exclusive",
+        "description": "Mauris facilisis, sem sit amet semper fermentum, nibh massa tempus ligula, vitae aliquet tellus risus vitae leo. Aliquam viverra efficitur libero non mattis."
+      },
+      "hs3": {
+        "title": "Endangered Animals NFT works/future releases",
+        "description": "Mauris facilisis, sem sit amet semper fermentum, nibh massa tempus ligula, vitae aliquet tellus risus vitae leo. Aliquam viverra efficitur libero non mattis."
+      },
+      "hs4": {
+        "title": "Endangered Animals NFT new planning",
+        "description": "Mauris facilisis, sem sit amet semper fermentum, nibh massa tempus ligula, vitae aliquet tellus risus vitae leo. Aliquam viverra efficitur libero non mattis."
+      },
+      "hs5": {
+        "title": "Endangered Animals NFT new developments",
+        "description": "Mauris facilisis, sem sit amet semper fermentum, nibh massa tempus ligula, vitae aliquet tellus risus vitae leo. Aliquam viverra efficitur libero non mattis."
+      }
+    }
+  }
+}
