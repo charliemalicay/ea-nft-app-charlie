@@ -20,6 +20,13 @@ module.exports = {
                     }
                 }
             }, {
+                test: /\.html$/,
+                use: [
+                    {
+                        loader: "html-loader"
+                    }
+                ]
+            }, {
                 test: /\.(less|css)$/i,
                 use: ["style-loader", "css-loader", "less-loader"]
             }, {
