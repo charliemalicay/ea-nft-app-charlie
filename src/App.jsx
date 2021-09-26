@@ -7,10 +7,6 @@ import { createTheme, ThemeProvider } from "@mui/material/styles";
 
 import "./App.less";
 
-import headerConstants from "./constants/headerConstants";
-import section1Constants from "./constants/section1Constants";
-import section5Constants from "./constants/section5Constants";
-
 import Headers from "./components/Headers.jsx";
 import Section1 from "./components/Section1.jsx";
 import Section2 from "./components/Section2.jsx";

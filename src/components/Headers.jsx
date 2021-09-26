@@ -1,13 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 
 import "./Headers.less";
 
+import SimpleModal from "./overlayComponents/SimpleModal.jsx";
+
 
 const Headers = ({ JSONData }) => {
     const { logo_image, sections, title } = JSONData;
+
+    const [openModal, setOpenModal] = useState(false);
+
+    const toggleModalHandler = () => {
+        setOpenModal(!openModal);
+    }
 
     return (
         <Box className="headers-container">
@@ -21,7 +29,10 @@ const Headers = ({ JSONData }) => {
                     )
                 })}
             </Box>
-            <Button variant="contained">Connect</Button>
+            <Button variant="contained" onClick={() => toggleModalHandler()}>Connect</Button>
+            <SimpleModal
+                modalMessage="Button Connect is under construction"
+                openModal={ openModal } toggleModalHandler={ toggleModalHandler } />
         </Box>
     );
 }

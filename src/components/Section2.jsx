@@ -1,13 +1,21 @@
-import React from "react";
+import React, {useState} from "react";
 
 import Box from '@mui/material/Box';
+import Button from "@mui/material/Button";
 
 import "./Section2.less";
-import Button from "@mui/material/Button";
+
+import SimpleModal from "./overlayComponents/SimpleModal.jsx";
 
 
 const Section2 = ({ JSONData }) => {
     const { background_image } = JSONData;
+
+    const [openModal, setOpenModal] = useState(false);
+
+    const toggleModalHandler = () => {
+        setOpenModal(!openModal);
+    }
 
     return(
         <Box className="section-2-container" style={{ backgroundImage: `url(${background_image})` }}>
@@ -35,8 +43,11 @@ const Section2 = ({ JSONData }) => {
                     <p className="bold-text margin-top">Help Raised money for select charities working</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </span>
-                <Button variant="contained">Discover Us</Button>
+                <Button variant="contained" onClick={() => toggleModalHandler()}>Discover Us</Button>
             </Box>
+            <SimpleModal
+                modalMessage="Button Discover Us is under construction"
+                openModal={ openModal } toggleModalHandler={ toggleModalHandler } />
         </Box>
     );
 }
